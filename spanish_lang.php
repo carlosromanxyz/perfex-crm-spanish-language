@@ -600,13 +600,13 @@ $lang['als_calendar_submenu']      = 'Calendario';
 $lang['als_activity_log_submenu']  = 'Registro de actividades';
 
 # Admin Customizer Sidebar
-$lang['acs_ticket_priority_submenu']           = 'prioridad de billetes';
-$lang['acs_ticket_statuses_submenu']           = 'Los estados de billetes';
-$lang['acs_ticket_predefined_replies_submenu'] = 'Respuestas Predefinidas';
+$lang['acs_ticket_priority_submenu']           = 'Prioridad de tickets';
+$lang['acs_ticket_statuses_submenu']           = 'Estados de tickets';
+$lang['acs_ticket_predefined_replies_submenu'] = 'Respuestas predeterminadas';
 $lang['acs_ticket_services_submenu']           = 'Servicios';
 $lang['acs_departments']                       = 'Departamentos';
-$lang['acs_leads']                             = 'Contactos';
-$lang['acs_leads_sources_submenu']             = 'Fuentes';
+$lang['acs_leads']                             = 'Oportunidades';
+$lang['acs_leads_sources_submenu']             = 'Origenes';
 $lang['acs_leads_statuses_submenu']            = 'Estados';
 $lang['acs_sales_taxes_submenu']               = 'Impuestos';
 $lang['acs_sales_currencies_submenu']          = 'Monedas';
@@ -745,7 +745,7 @@ $lang['survey_add_edit_redirect_url']              = 'URL de redireccionamiento 
 $lang['survey_add_edit_red_url_note']              = 'Cuando la encuesta ha acabado donde redirigir al usuario? (dejar en blanco para este sitio url)';
 $lang['survey_add_edit_disabled']                  = 'Deshabilitado';
 $lang['survey_add_edit_only_for_logged_in']        = 'Sólo iniciar sesión para los participantes (personal, clientes)';
-$lang['send_survey_string']                        = 'Enviar Encuesta';
+$lang['send_survey_string']                        = 'Enviar encuesta';
 $lang['survey_send_mail_list_clients']             = 'Clientes';
 $lang['survey_send_mail_list_staff']               = 'Personal';
 $lang['survey_send_mail_lists_string']             = 'Las listas de correo';
@@ -1915,13 +1915,13 @@ $lang['proposal_pdf_info']     = 'PDF';
 # Customers Portal
 $lang['customer_reset_action']            = 'Reiniciar';
 $lang['customer_reset_password_heading']  = 'Restablecer su contraseña';
-$lang['customer_forgot_password_heading'] = 'Se te olvidó tu contraseña';
-$lang['customer_forgot_password']         = '¿Se te olvidó tu contraseña?';
+$lang['customer_forgot_password_heading'] = 'Recuperar contraseña';
+$lang['customer_forgot_password']         = '¿Olvidaste tu contraseña?';
 $lang['customer_reset_password']          = 'Contraseña';
 $lang['customer_reset_password_repeat']   = 'Repite la contraseña';
 $lang['customer_forgot_password_email']   = 'Dirección de correo';
 $lang['customer_forgot_password_submit']  = 'Enviar';
-$lang['customer_ticket_subject']          = 'Tema';
+$lang['customer_ticket_subject']          = 'Asunto';
 
 # Email templates
 $lang['email_template_proposals_fields_heading'] = 'Propuestas';
@@ -1957,7 +1957,7 @@ $lang['active_menu_items']                  = 'Elementos de menú activos';
 $lang['inactive_menu_items']                = 'Elementos de menú inactivos';
 $lang['utilities_menu_url']                 = 'URL';
 $lang['utilities_menu_name']                = 'Nombre';
-$lang['utilities_menu_save']                = 'Guardar Menú';
+$lang['utilities_menu_save']                = 'Guardar menú';
 
 # Knowledge Base
 $lang['view_articles_list']     = 'Ver Artículos';
@@ -2411,7 +2411,7 @@ $lang['discussion_no_attachments'] = 'Ningún archivo adjunto';
 $lang['discussion_attachments_drop'] = 'Arrastrar y soltar para cargar el archivo';
 $lang['project_note'] = 'Nota';
 $lang['project_note_private'] = 'Notas Privadas';
-$lang['project_save_note'] = 'Guardar Nota';
+$lang['project_save_note'] = 'Guardar nota';
 
 # Project Activity
 $lang['project_activity_created'] = 'Proyecto Creado';
@@ -2530,7 +2530,7 @@ $lang['contact_primary'] = 'Contacto Principal';
 $lang['contact_position'] = 'Posición/Cargo';
 $lang['contact_active'] = 'Activo';
 $lang['client_company_info'] = 'Detalles de la Empresa';
-$lang['proposal_save'] = 'Guardar Propuesta';
+$lang['proposal_save'] = 'Guardar propuesta';
 $lang['calendar'] = 'Calendario';
 $lang['settings_pdf'] = 'PDF';
 $lang['settings_pdf_font'] = 'Fuente PDF';
@@ -2576,7 +2576,7 @@ $lang['leads_switch_to_kanban'] = 'Visualizar como kan ban';
 $lang['survey_no_questions'] = 'Esta encuesta no contiene preguntas.';
 $lang['survey_submit'] = 'Enviar';
 $lang['contract_content'] = 'Contrato';
-$lang['contract_save'] = 'Guardar Contrato';
+$lang['contract_save'] = 'Guardar contrato';
 $lang['contract_send_to_email'] = 'Enviar por Email';
 $lang['contract_send_to_client_modal_heading'] = 'Enviar Contrato por Correo';
 $lang['contract_send_to'] = 'Enviar a';
@@ -2658,7 +2658,7 @@ $lang['report_expenses_base_currency_select_explanation'] = 'Tienes que elegir u
 
 # Version 1.1.6
 $lang['project_activity_recorded_expense'] = 'Gasto Registrado';
-$lang['save_customer_and_add_contact'] = 'Guardar y Crear Contacto';
+$lang['save_customer_and_add_contact'] = 'Guardar y crear contacto';
 $lang['tickets_chart_weekly_opening_stats'] = 'Estadísticas Semanal';
 $lang['related_knowledgebase_articles'] = 'Articulos Relacionados';
 $lang['detailed_overview'] = 'Detalles de Tareas';
@@ -3013,7 +3013,7 @@ $lang['search_tasks'] = 'Buscar Tareas';
 $lang['tasks_kanban_limit'] = 'Limit tasks kan ban rows per status';
 $lang['show_on_invoice_on_pdf'] = 'Show %s on Invoice PDF';
 $lang['show_pay_link_to_invoice_pdf'] = 'Show Pay Invoice link to PDF (Not applied if invoice status is Cancelled)';
-$lang['no_leads_found'] = 'No Leads Found';
+$lang['no_leads_found'] = 'No hay oportunidades';
 $lang['created_today'] = 'Creado Hoy';
 $lang['total_tasks_deleted'] = 'Total Tasks Deleted: %s';
 $lang['total_tickets_delete'] = 'Total Tickets Deleted: %s';
@@ -3273,15 +3273,15 @@ $lang['vault_entry_last_update'] = 'Last updated by %s';
 $lang['vault_entry_visible_to_all'] = 'Visible to all staff member who have access to this customer';
 $lang['vault_entry_visible_creator'] = 'Visible only to me (administrator are not excluded)';
 $lang['vault_entry_visible_administrators'] = 'Visible only to administrators';
-$lang['my_reminders'] = 'My Reminders';
-$lang['reminder_related'] = 'Related to';
-$lang['event_notification'] = 'Notification';
-$lang['days'] = 'Days';
-$lang['reminder_notification_placeholder'] = 'Eq. 30 minutes before';
-$lang['event_color'] = 'Event Color';
-$lang['group_by_task'] = 'Group by Task';
-$lang['save'] = 'Save';
-$lang['disable_languages'] = 'Disable Languages';
+$lang['my_reminders'] = 'Mis recordatorios';
+$lang['reminder_related'] = 'Relacionado con';
+$lang['event_notification'] = 'Notificación';
+$lang['days'] = 'Días';
+$lang['reminder_notification_placeholder'] = 'Equivalente a 30 minutos antes';
+$lang['event_color'] = 'Color del evento';
+$lang['group_by_task'] = 'Agrupar por tarea';
+$lang['save'] = 'Guardar';
+$lang['disable_languages'] = 'Desactivar idiomas';
 
 # Version 1.8.0
 $lang['not_customer_viewed_invoice'] = 'La factura con el número %s ha sido vista';
@@ -3404,7 +3404,7 @@ $lang['show_pdf_signature_estimate'] = 'Show PDF Signature on Estimate';
 $lang['signature'] = 'Signature';
 $lang['signature_image'] = 'Signature Image';
 $lang['insert_checklist_templates'] = 'Insert Checklist Templates';
-$lang['save_as_template'] = 'Save as Template';
+$lang['save_as_template'] = 'Guardar como plantilla';
 $lang['scroll_responsive_tables_help'] = 'Tables with large amount of data will have horizontal scroll instead rows wrapped in + icon.';
 $lang['scroll_responsive_tables'] = 'Activate Scroll Responsive Tables';
 $lang['invoice_item_add_edit_rate_currency'] = 'Rate - %s';
